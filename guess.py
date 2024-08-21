@@ -10,7 +10,7 @@ def guess():
     """
     while True:
         chances = 5
-        number = random.randint(1, 10)  # Random number between 1 and 10
+        number = random.randint(1, 10)  # Random number between 1 to 10
         print("My number is between 1 to 10")
         print(f"Chances: {chances * '❤'}")
         while chances > 0:  # checking if there is any chance
